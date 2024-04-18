@@ -1,0 +1,21 @@
+:root {
+    margin: 20px;
+}
+
+.App {
+}
+
+.cat {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.catPhotos {
+    display: flex;
+    gap: 1rem;
+}
+
+.catPhotos img {
+    max-height: 100px;
+}
