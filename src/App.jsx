@@ -20,7 +20,6 @@ if (!pb.authStore.isValid) {
 
 function App() {
 
-    const [foo, setFoo] = createSignal(null);
     const [$cats] = createResource(getCats);
 
     return (
